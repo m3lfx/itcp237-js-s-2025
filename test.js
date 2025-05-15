@@ -29,3 +29,30 @@ console.log("Hello".lastIndexOf("l")); //3
 console.log("Hello".startsWith("H")); //true
 console.log("Hello".endsWith("o")); //true
 console.log("Hello".includes("X"));
+
+var splitStringByWords = "Hello World".split(" ");
+console.log(splitStringByWords); //["Hello", "World"]
+var splitStringByChars = "Hello World".split("");
+console.log(splitStringByChars); //["H", "e", "l", "l", "o", " ","W", "o", "r", "l", "d"]
+console.log("lowercasestring".toUpperCase()); //"LOWERCASESTRING"
+console.log("UPPPERCASESTRING".toLowerCase());
+//"upppercasestring"
+console.log("There are no spaces in the end ".trim());
+
+var a //declares a variable but its undefined
+var b = 0;
+console.log(b);
+console.log(a); //undefined
+console.log(a + " " + b)
+
+console.log(true && true);
+console.log(true && false)
+console.log(false && true)
+console.log("Foo" && "Bar" )
+console.log([] && "dog" && "foo")
+console.log(null && "Foo")
+console.log("Foo" && NaN)
+console.log("foo" && (2 == 2))
+console.log(0 && "Foo");
+console.log(null || "Food");
+console.log({} || "Bar");
